@@ -17,7 +17,7 @@ Connect-MgGraph -Scopes 'User.Read.All', 'Mail.Send', 'Domain.Read.All'
 Connect-Graph -scopes "Policy.Read.All"
 
 # Use App-only access with a client secret credential. This method requires additional safeguards to avoid exposing the secret key. 
-#Connect-MgGraph -TenantId "c4689893-958d-4304-858a-0a43f660a43d" -ClientSecretCredential "D2S8Q~NrbCkX96_t0PmoZZTO4ky3mf4fCLXFcbXW"
+#Connect-MgGraph -TenantId "c4689893-958d-4304-858a-0a43f660a43d" -ClientSecretCredential "Client Secret"
 
 $clientId = "d8466531-70a4-4d96-800c-d62e494f2c65"
 $clientSecret = "ID Chave do client criado app registrations"
